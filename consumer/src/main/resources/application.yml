@@ -1,0 +1,15 @@
+server:
+  port: 31000
+spring:
+  application:
+    name: rabbitMQ-producer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+study:
+  rabbitMQ:
+    queue: first_queue
+    routingKey: 5a751fab6abb5044e0d19ea1
