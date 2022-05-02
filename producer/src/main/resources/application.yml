@@ -9,6 +9,11 @@ spring:
     virtual-host: /
     username: guest
     password: guest
+    publisher-returns: true
+    publisher-confirm-type: correlated
+    listener:
+      simple:
+        acknowledge-mode: manual
 study:
   rabbitMQ:
     queue: first_queue

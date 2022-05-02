@@ -9,6 +9,9 @@ spring:
     virtual-host: /
     username: guest
     password: guest
+    listener:
+      simple:
+        acknowledge-mode: manual
 study:
   rabbitMQ:
     queue: first_queue
