@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
  * @date 2022/5/1
  * @title：
  */
-public class RabbitMQConfig {
     @Configuration
     public class RabbitmqConfig {
 
@@ -24,10 +23,11 @@ public class RabbitMQConfig {
 
         //队列的名称
         @Value("${study.rabbitMQ.queue}")
-        public String queue_name = "first_name";
+        public String queue_name;
 
         //routingKey 即站点Id
-        @Value("${xuecheng.mq.routingKey}")
+        @Value("${study.rabbitMQ.routingKey}")
+        public String routingKey;
 
         //声明交换机
         @Bean(Exchange_Bean)
@@ -36,16 +36,18 @@ public class RabbitMQConfig {
         }
 
         //声明队列
+        @Bean(Queue_Bean)
         public Queue getQueue(){
             return new Queue(queue_name);
         }
 
         //绑定队列到交换机
+        @Bean
         public Binding binding_Ee_queue(@Qualifier(Queue_Bean) Queue queue, @Qualifier(Exchange_Bean) Exchange exchange){
-            return BindingBuilder.bind(queue).to(exchange).with("").noargs();
+            return BindingBuilder.bind(queue).to(exchange).with(routingKey).noargs();
 
         }
 
 
     }
-}
+

@@ -12,4 +12,4 @@ spring:
 study:
   rabbitMQ:
     queue: first_queue
-    routingKey: 5a751fab6abb5044e0d19ea1 #此routingKey为门户站点ID
+    routingKey: 5a751fab6abb5044e0d19ea1
