@@ -15,8 +15,7 @@ public class threadLocalgetValue {
     * @Params:
     * @Return
     */
-    public void getValue(ThreadLocal threadLocal){
-        Thread thread = Thread.currentThread();
+    public void getValue(ThreadLocal threadLocal) {
         System.out.println("当前的线程名字："+Thread.currentThread().getName()+"获取的值为："+threadLocal.get());
         threadLocal.remove();
 

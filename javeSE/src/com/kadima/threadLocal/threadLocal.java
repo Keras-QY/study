@@ -18,10 +18,14 @@ package com.kadima.threadLocal;
  */
 public class threadLocal {
 
-    //定义全局变量来存放线程需要的变量,ThreadLocal是线程Thread中属性threadLocals的管理者
+    /**
+     *定义全局变量来存放线程需要的变量,ThreadLocal是线程Thread中属性threadLocals的管理者
+     */
     public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws NoSuchFieldException {
+
 
         threadLocal.set(255);
         for (int i = 0; i < 2; i++) {
@@ -31,7 +35,8 @@ public class threadLocal {
                     Double v = Math.random() * 10;
                     threadLocal.set(v.intValue());
                     threadLocalgetValue threadLocalgetValue = new threadLocalgetValue();
-                    threadLocalgetValue.getValue(threadLocal);
+                        threadLocalgetValue.getValue(threadLocal);
+
                     System.out.println("当前的线程名字："+Thread.currentThread().getName()+"获取的值为："+threadLocal.get());
                 }
             }).start();
