@@ -21,12 +21,12 @@ public class fieldTest {
          */
         Field[] fields = studentDomainClass.getDeclaredFields();
         for (Field field1 : fields) {
+            /**
+             * 取消反射是Java的访问检查
+             */
             field1.setAccessible(true);
             System.out.println("获取到的属性名："+field1);
         }
-        /**
-         * 取消反射是Java的访问检查
-         */
         //System.out.println(field);
     }
 }

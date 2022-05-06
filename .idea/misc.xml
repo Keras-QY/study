@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/producer/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/javeSE/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
       </list>
     </option>
   </component>
