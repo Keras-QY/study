@@ -1,7 +1,6 @@
 package com.kadima.AOP;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
 
 /**
  * @author qianyong
@@ -12,12 +11,8 @@ import org.aspectj.lang.annotation.Around;
 
 public class Annotation {
 
-
-
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         ProceedingJoinPoint proceedingJoinPoint = ProceedingJoinPoint.class.newInstance();
-        proceedingJoinPoint.proceed()
 
     }
 }

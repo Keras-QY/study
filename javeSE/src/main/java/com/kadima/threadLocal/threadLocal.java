@@ -30,6 +30,7 @@ public class threadLocal {
         threadLocal.set(255);
         for (int i = 0; i < 2; i++) {
             new Thread( new Runnable() {
+
                 @Override
                 public void run() {
                     Double v = Math.random() * 10;
