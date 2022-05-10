@@ -1,5 +1,6 @@
 package com.kadima.aop.controller;
 
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.kadima.aop.annnotation.aopTest;
@@ -11,6 +12,7 @@ import com.kadima.aop.annnotation.aopTest;
  * @date 2022/5/6
  * @title：
  */
+
 @Controller
 @RequestMapping("/AOP/")
 public class aopController {
@@ -19,6 +21,7 @@ public class aopController {
     @aopTest(value = "hello")
     public void aopTest(){
         System.out.println("目标方法执行中");
+        throw new RuntimeException();
 
     }
 }
