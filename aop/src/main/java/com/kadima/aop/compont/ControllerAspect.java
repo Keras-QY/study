@@ -2,6 +2,7 @@ package com.kadima.aop.compont;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
  * @title：@Aspect 把一个类定义为切面供容器读取
  * 多个切面类，执行的先后顺序根据@order(int value) 值越小越先执行
  */
+@Order(1)
 @Component
 @Aspect
 public class ControllerAspect {
