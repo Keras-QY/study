@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6ad7f6-535e-485d-a01d-b088f0dc4813" name="Default Changelist" comment="rabbitMQspringboot配置">
+      <change afterPath="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImageUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImgUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../xcEduService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xcEduService/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/producer/target/" />
@@ -19,7 +21,7 @@
     <session id="1129094747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -29,17 +31,18 @@
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="59" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
@@ -49,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7313" />
+          <entry key="JAVA" value="8967" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="75" />
           <entry key="XML" value="22" />
@@ -61,41 +64,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImgUtil.java">
+        <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+            <state relative-caret-position="990">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ImgUtil#0" />
+                <element signature="method#getImageType#0;class#ImgUtil#0" />
+                <element signature="method#combineCodeAndProductToBufferedImage#0;class#ImageUtil#0" />
+                <element signature="method#&lt;unnamed&gt;#0;class#ImageUtil#0" />
+                <element signature="method#combineCodeAndProductToFile#0;class#ImageUtil#0" />
+                <element signature="method#combineCodeAndProductToBase64#0;class#ImageUtil#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Devironment/java8/src.zip!/javax/imageio/ImageIO.java">
+        <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/RenderingHints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="1153" column="8" selection-start-line="1153" selection-start-column="8" selection-end-line="1153" selection-end-column="8" />
+            <state relative-caret-position="-165">
+              <caret line="260" column="32" lean-forward="true" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Devironment/java8/src.zip!/java/io/File.java">
+        <entry file="jar://D:/Devironment/java8/javafx-src.zip!/javafx/scene/text/Font.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1880">
-              <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+            <state relative-caret-position="4083">
+              <caret line="296" column="11" selection-start-line="296" selection-start-column="11" selection-end-line="296" selection-end-column="11" />
+              <folding>
+                <element signature="e#11283#11284#0" expanded="true" />
+                <element signature="e#11315#11316#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/BufferedImage.java">
+        <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/Font.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="169">
+              <caret line="222" column="3" lean-forward="true" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -103,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/ColorModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="2394">
               <caret line="165" column="32" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="32" />
               <folding>
                 <element signature="e#19171#19172#0" expanded="true" />
@@ -134,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/controller/aopController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="198">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/compont/ControllerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="702">
               <caret line="49" column="52" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -275,7 +286,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/Enum/Day.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
+            <state relative-caret-position="990">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#195#196#0" expanded="true" />
@@ -300,7 +311,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/annnotation/aopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="594">
               <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -339,7 +350,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/AOP/testAOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="198">
               <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -351,7 +362,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="108">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -385,6 +396,7 @@
       <find>getImageType</find>
       <find>targetW</find>
       <find>formatName</find>
+      <find>imOut</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -441,6 +453,7 @@
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/test.java" />
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/imageMerageTest.java" />
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImgUtil.java" />
+        <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImageUtil.java" />
       </list>
     </option>
   </component>
@@ -481,10 +494,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1985" />
-    <option name="y" value="6" />
-    <option name="width" value="2420" />
-    <option name="height" value="1103" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -493,7 +506,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -626,6 +638,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -635,7 +648,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652365772009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652426981521" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -664,13 +677,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImgUtil">
-    <configuration name="Annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kadima.AOP.Annotation" />
+  <component name="RunManager" selected="Application.ImageUtil">
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kadima.Enum.EnumDemo" />
       <module name="javeSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kadima.AOP.*" />
+          <option name="PATTERN" value="com.kadima.Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -678,12 +691,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kadima.Enum.EnumDemo" />
+    <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kadima.imageMerage.ImageUtil" />
       <module name="javeSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kadima.Enum.*" />
+          <option name="PATTERN" value="com.kadima.imageMerage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -757,17 +770,17 @@
       <item itemvalue="Spring Boot.AopApplication" />
       <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.threadLocal" />
-      <item itemvalue="Application.Annotation" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.ImgUtil" />
+      <item itemvalue="Application.ImageUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImageUtil" />
         <item itemvalue="Application.ImgUtil" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.threadLocal" />
         <item itemvalue="Application.EnumDemo" />
-        <item itemvalue="Application.Annotation" />
       </list>
     </recent_temporary>
   </component>
@@ -794,7 +807,8 @@
       <workItem from="1652229530776" duration="3145000" />
       <workItem from="1652273102149" duration="3003000" />
       <workItem from="1652315196543" duration="16013000" />
-      <workItem from="1652359613839" duration="5306000" />
+      <workItem from="1652359613839" duration="5604000" />
+      <workItem from="1652402380455" duration="18373000" />
     </task>
     <task id="LOCAL-00001" summary="rabbitMQspringboot配置">
       <created>1651458388334</created>
@@ -807,7 +821,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86764000" />
+    <option name="totallyTimeSpent" value="105435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,10 +833,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -833,8 +847,8 @@
       <window_info id="Build Variants" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5134752" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32681867" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.51140064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
@@ -904,34 +918,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="rabbitMQspringboot配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.13.1/amqp-client-5.13.1.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.13.1/amqp-client-5.13.1.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6282">
-          <caret line="411" column="26" selection-start-line="411" selection-start-column="26" selection-end-line="411" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.13.1/amqp-client-5.13.1.jar!/com/rabbitmq/client/impl/recovery/RecoveryAwareChannelN.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.13.1/amqp-client-5.13.1.jar!/com/rabbitmq/client/MetricsCollector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.13.1/amqp-client-5.13.1.jar!/com/rabbitmq/client/impl/AbstractMetricsCollector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4248">
@@ -1004,9 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,9 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,9 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="2" selection-start-line="16" selection-start-column="7" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,6 +1025,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8118">
           <caret line="497" column="9" selection-start-line="497" selection-start-column="9" selection-end-line="497" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19134">
+          <caret line="1153" column="8" selection-start-line="1153" selection-start-column="8" selection-end-line="1153" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4302">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/ColorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="165" column="32" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="32" />
+          <folding>
+            <element signature="e#19171#19172#0" expanded="true" />
+            <element signature="e#19214#19215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/controller/aopController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="198">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1091,7 +1100,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/compont/ControllerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="702">
           <caret line="49" column="52" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1178,7 +1187,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/Enum/Day.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
+        <state relative-caret-position="990">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
@@ -1201,7 +1210,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/kadima/aop/annnotation/aopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="594">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1232,7 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/AOP/testAOP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="198">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1242,7 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="108">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1253,45 +1262,49 @@
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.6.7/spring-boot-starter-test-2.6.7.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/ColorModel.java">
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="165" column="32" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="32" />
+        <state relative-caret-position="1000">
+          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="222" column="3" lean-forward="true" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/javafx-src.zip!/javafx/scene/text/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4083">
+          <caret line="296" column="11" selection-start-line="296" selection-start-column="11" selection-end-line="296" selection-end-column="11" />
           <folding>
-            <element signature="e#19171#19172#0" expanded="true" />
-            <element signature="e#19214#19215#0" expanded="true" />
+            <element signature="e#11283#11284#0" expanded="true" />
+            <element signature="e#11315#11316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/image/BufferedImage.java">
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/awt/RenderingHints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state relative-caret-position="-165">
+          <caret line="260" column="32" lean-forward="true" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Devironment/java8/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1880">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Devironment/java8/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="1153" column="8" selection-start-line="1153" selection-start-column="8" selection-end-line="1153" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/imageMerage/ImgUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        <state relative-caret-position="990">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ImgUtil#0" />
+            <element signature="method#getImageType#0;class#ImgUtil#0" />
+            <element signature="method#combineCodeAndProductToBufferedImage#0;class#ImageUtil#0" />
+            <element signature="method#&lt;unnamed&gt;#0;class#ImageUtil#0" />
+            <element signature="method#combineCodeAndProductToFile#0;class#ImageUtil#0" />
+            <element signature="method#combineCodeAndProductToBase64#0;class#ImageUtil#0" />
           </folding>
         </state>
       </provider>
