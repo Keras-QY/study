@@ -60,6 +60,6 @@ public class test {
     }
 
     private static void getstring(student ss){
-        System.out.println("===="+ssss);
+        System.out.println("===="+ss);
     }
 }
