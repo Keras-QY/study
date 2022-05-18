@@ -1,5 +1,7 @@
 package com.kadima.chainMode;
 
+//import com.kadima.StringTest.String;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -56,6 +58,8 @@ public class test {
         studentList.stream().map(student -> student.getAge()+1).forEach(System.out::println);
         //reduce
         //studentList.stream().reduce((sum,num) -> sum+num).get()
+        //StringTest string = new StringTest(10, 20);
+
 
     }
 

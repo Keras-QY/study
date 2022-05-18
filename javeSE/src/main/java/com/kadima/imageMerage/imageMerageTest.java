@@ -19,7 +19,7 @@ public class imageMerageTest {
     }*//*
 
 
-    private boolean merageImage(String path1,String path2) throws IOException {
+    private boolean merageImage(StringTest path1,StringTest path2) throws IOException {
         //图片的地址
 
 
