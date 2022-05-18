@@ -15,10 +15,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class student {
+public class student implements Comparable{
 
     private String name;
     private int age;
     private String school;
 
+
+
+    @Override
+    public int compareTo(Object o) {
+        if (age > 0)
+        return 0;
+        return -1;
+    }
 }
