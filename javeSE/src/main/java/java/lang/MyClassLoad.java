@@ -1,4 +1,4 @@
-package com.kadima.StringTest;
+package java.lang;
 
 import java.io.*;
 
@@ -10,24 +10,24 @@ public class MyClassLoad extends ClassLoader {
     /**
      * 磁盘上类的路径
      */
-    private java.lang.String codePath;
+    private String codePath;
 
-    public MyClassLoad(ClassLoader parent, java.lang.String codePath){
+    public MyClassLoad(ClassLoader parent, String codePath){
         super(parent);
         this.codePath = codePath;
     }
 
-    public MyClassLoad(java.lang.String codePath){
+    public MyClassLoad(String codePath){
         this.codePath = codePath;
     }
 
     @Override
-    protected Class<?> findClass(java.lang.String name) throws ClassNotFoundException {
+    protected Class<?> findClass(String name) throws ClassNotFoundException {
         BufferedInputStream InputStream = null;
         ByteArrayOutputStream outputStream = null;
 
         //完整的类名
-        java.lang.String file = codePath + name + ".class";
+        String file = codePath + name + ".class";
         try {
             //获取输入流
             InputStream = new BufferedInputStream(new FileInputStream(file));

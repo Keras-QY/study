@@ -47,16 +47,17 @@ public class StringTest {
         }
         System.out.println(stringJoiner1.toString()); // [A&B&C&D]*/
 
-        /*MyClassLoad myClassLoad = new MyClassLoad("D:\\study\\rabbit\\javeSE\\target\\classes\\com\\kadima\\");
-        Class<?> aClass = myClassLoad.findClass("String");
-        System.out.println(aClass);*/
+        MyClassLoad myClassLoad = new MyClassLoad("D:\\study\\study\\javeSE\\target\\classes\\com\\kadima\\StringTest\\");
+        Class<?> aClass = myClassLoad.loadClass("String");
+        /*String o = (String) aClass.newInstance();
+        o.totring();*/
+        System.out.println(aClass);
 
         /*ClassLoader classLoader = MyClassLoad.class.getClassLoader();
         Class<?> loadClass = classLoader.loadClass("java.lang.String");
         System.out.println(loadClass);*/
 
-        String string = new String();
-        string.totring();
+        //
         //instance.toString();
 
     }
