@@ -1,4 +1,5 @@
-package java.lang;
+package com.kadima.ClassLoader;
+
 
 import java.io.*;
 
@@ -18,6 +19,7 @@ public class MyClassLoad extends ClassLoader {
     }
 
     public MyClassLoad(String codePath){
+        super(MyClassLoad.class.getClassLoader().getParent());
         this.codePath = codePath;
     }
 
@@ -27,7 +29,7 @@ public class MyClassLoad extends ClassLoader {
         ByteArrayOutputStream outputStream = null;
 
         //完整的类名
-        String file = codePath + name + ".class";
+        String file = codePath + name.replaceAll("\\.","/") + ".class";
         try {
             //获取输入流
             InputStream = new BufferedInputStream(new FileInputStream(file));
