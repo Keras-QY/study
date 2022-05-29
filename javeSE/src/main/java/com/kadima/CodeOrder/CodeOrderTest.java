@@ -1,5 +1,7 @@
 package com.kadima.CodeOrder;
 
+import java.util.HashMap;
+
 /**
  * @author qianyong
  * @company finedo.cn
@@ -46,5 +48,7 @@ class dog extends animal{
 public class CodeOrderTest {
     public static void main(String[] args) {
         new dog("小强");
+        HashMap<Object, Object> hashMap = new HashMap<>();
+        hashMap.put()
     }
 }

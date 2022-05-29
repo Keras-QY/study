@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45f930c7-e7b3-4024-b5c8-2b41e36a552b" name="Default Changelist" comment="rabbitMQspringboot配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javeSE/target/" />
     <ignored path="$PROJECT_DIR$/consumer/target/" />
@@ -19,38 +21,32 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="960" />
+          <entry key="JAVA" value="1010" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Devironment/java8/src.zip!/java/lang/reflect/WeakCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="119" column="62" selection-start-line="119" selection-start-column="62" selection-end-line="119" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Devironment/java8/src.zip!/java/util/function/BiFunction.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -250,10 +246,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://D:/Devironment/java8/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="1076" column="23" selection-start-line="1076" selection-start-column="17" selection-end-line="1076" selection-end-column="23" />
+              <folding>
+                <element signature="e#5774#5775#0" expanded="true" />
+                <element signature="e#5798#5799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Devironment/java8/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="134" column="13" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="13" />
+              <folding>
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -273,15 +295,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="882">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Devironment/java8/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5472">
+              <caret line="338" column="48" selection-start-line="338" selection-start-column="48" selection-end-line="338" selection-end-column="48" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#24331#24332#0" expanded="true" />
+                <element signature="e#24396#24397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -299,7 +329,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Devironment/java8/src.zip!/java/lang/ClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8190">
+            <state relative-caret-position="8154">
               <caret line="518" column="6" selection-start-line="518" selection-start-column="6" selection-end-line="518" selection-end-column="6" />
             </state>
           </provider>
@@ -335,10 +365,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>secur</find>
+      <find>contain</find>
+      <find>reado</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -350,6 +381,7 @@
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/Array/Student.java" />
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/Array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java" />
       </list>
     </option>
   </component>
@@ -387,8 +419,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1645" />
-    <option name="y" value="115" />
+    <option name="x" value="-1765" />
+    <option name="y" value="70" />
     <option name="width" value="1440" />
     <option name="height" value="765" />
   </component>
@@ -398,7 +430,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -456,12 +487,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653225100346" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653407549532" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.3060662" />
@@ -602,7 +634,10 @@
       <workItem from="1652885136927" duration="2875000" />
       <workItem from="1653136437657" duration="3046000" />
       <workItem from="1653147166383" duration="151000" />
-      <workItem from="1653206143320" duration="2889000" />
+      <workItem from="1653206143320" duration="2890000" />
+      <workItem from="1653406542370" duration="1018000" />
+      <workItem from="1653485750245" duration="879000" />
+      <workItem from="1653806770042" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="rabbitMQspringboot配置">
       <created>1651458388334</created>
@@ -614,13 +649,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14273000" />
+    <option name="totallyTimeSpent" value="16640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3585791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -631,7 +665,7 @@
       <window_info id="Build Variants" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.506383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.506383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5106383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -951,10 +985,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/kadima/consumer/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="180">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="134" column="13" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="13" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -963,6 +1008,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="338" column="48" selection-start-line="338" selection-start-column="48" selection-end-line="338" selection-end-column="48" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1041,7 @@
     </entry>
     <entry file="jar://D:/Devironment/java8/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8190">
+        <state relative-caret-position="8154">
           <caret line="518" column="6" selection-start-line="518" selection-start-column="6" selection-end-line="518" selection-end-column="6" />
         </state>
       </provider>
@@ -994,17 +1060,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javeSE/src/main/java/com/kadima/CodeOrder/CodeOrderTest.java">
+    <entry file="jar://D:/Devironment/java8/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="208">
+          <caret line="1076" column="23" selection-start-line="1076" selection-start-column="17" selection-end-line="1076" selection-end-column="23" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#5774#5775#0" expanded="true" />
+            <element signature="e#5798#5799#0" expanded="true" />
           </folding>
         </state>
       </provider>
