@@ -21,7 +21,7 @@ public class example {
         deal(2);
 
         /**
-         * 使用自动注入获取策略类
+         * 使用自动注入获取策略类,还可以让bean初始化完成后注入到map中去
          */
         List<strategy> list = Arrays.asList(new FirstStrategy(), new SecondStrategy(), new ThirdStrategy(), new FourStrategy());
         //策略类映射关系

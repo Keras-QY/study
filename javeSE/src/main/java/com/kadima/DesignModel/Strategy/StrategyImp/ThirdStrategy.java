@@ -1,5 +1,6 @@
 package com.kadima.DesignModel.Strategy.StrategyImp;
 
+import com.kadima.DesignModel.Strategy.FactoryModel;
 import com.kadima.DesignModel.Strategy.strategy;
 
 /**
@@ -19,5 +20,10 @@ public class ThirdStrategy implements strategy {
     @Override
     public int getType() {
         return type;
+    }
+
+    //初始化bean之后所作的操作
+    public void registerToMap(){
+        FactoryModel.register(type,this);
     }
 }
