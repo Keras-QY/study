@@ -14,9 +14,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aop" target="1.5" />
+      <module name="aop" target="8" />
       <module name="consumer" target="1.8" />
-      <module name="javeSE" target="1.5" />
+      <module name="javeSE" target="8" />
       <module name="producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,6 +1,5 @@
 package com.kadima.Array;
 
-import com.kadima.StringTest.String;
 
 /**
  * @author qianyong
