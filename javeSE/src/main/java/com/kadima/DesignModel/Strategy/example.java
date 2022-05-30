@@ -5,6 +5,8 @@ import com.kadima.DesignModel.Strategy.StrategyImp.FourStrategy;
 import com.kadima.DesignModel.Strategy.StrategyImp.SecondStrategy;
 import com.kadima.DesignModel.Strategy.StrategyImp.ThirdStrategy;
 
+import java.lang.ref.SoftReference;
+import java.lang.ref.WeakReference;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -29,6 +31,11 @@ public class example {
         map = list.stream().collect(Collectors.toMap(strategy::getType, Function.identity()));
         strategy strategy = map.get(1);
         strategy.dealMethod();
+        WeakReference<Map> softReference = new WeakReference<Map>(map);
+        map=null;
+        System.gc();
+        System.runFinalization();
+        System.out.println(softReference.get());
 
 
     }
