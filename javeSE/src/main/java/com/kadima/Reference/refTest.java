@@ -50,12 +50,16 @@ public class refTest {
          * 如果程序发现某个虚引用已经被加入到引用队列，那么就可以在所引用的对象的内存被回收之前采取必要的行动
          */
         ReferenceQueue<Object> queue = new ReferenceQueue<>();
-        String s4 = new String("hello world 3");
+        String s4 = new String("hello   world 3");
         PhantomReference<String> phantomReference = new PhantomReference<>(s4, queue);
         //s4 = null;
         System.gc();
         System.runFinalization();
         System.out.println(queue.poll());
+        long l = 1653900520000L;
+
+        System.out.println(l / 3600000d);
+        System.out.println(Math.round(l/3600000d*100)/100d);
 
         /**
          * 利用软引用和弱引用解决OOM问题：假如有一个应用需要读取大量的本地图片，如果每次读取图片都从硬盘读取，则会严重影响性能，
