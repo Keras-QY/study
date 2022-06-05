@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author qianyong
@@ -34,11 +35,13 @@ public class test {
 
 
         //filter过滤器
-        studentList.stream().filter( (u -> u.getAge() == 25)).forEach(System.out::println);
+        //studentList.stream().filter( (u -> u.getAge() == 25)).forEach(System.out::println);
+        List<student> studentList1 = studentList.stream().filter((u -> u.getAge() < 25)).collect(Collectors.toList());
+        System.out.println(studentList1);
 
 
 
-        //收集器,生成新的集合
+        /*//收集器,生成新的集合
         Set<com.kadima.chainMode.student> collect = studentList.stream().filter((u) -> u.getAge() > 25).collect(Collectors.toSet());
         System.out.println(collect);
 
@@ -55,7 +58,7 @@ public class test {
         //count
         System.out.println(integerList.stream().count());
         //map 对取出的数据进行额外的操作
-        studentList.stream().map(student -> student.getAge()+1).forEach(System.out::println);
+        studentList.stream().map(student -> student.getAge()+1).forEach(System.out::println);*/
         //reduce
         //studentList.stream().reduce((sum,num) -> sum+num).get()
         //StringTest string = new StringTest(10, 20);
