@@ -31,10 +31,7 @@ public class finalTest {
             /**
              * 捕获异常的顺序与if...else一样，先捕获小异常，在捕获大异常
              */
-        } catch (FileNotFoundException e){
-            System.out.println();
-
-        }finally {
+        } finally {
             System.out.println("final代码块被执行");
             //return count++;
         }

@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/javeSE/pom.xml" />
         <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3-mybatis-3.5.10/pom.xml" />
       </list>
     </option>
   </component>
