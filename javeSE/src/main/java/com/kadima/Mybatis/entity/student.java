@@ -1,5 +1,6 @@
 package com.kadima.Mybatis.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -9,8 +10,14 @@ import lombok.Data;
  * @title：
  */
 @Data
+@AllArgsConstructor
 public class student {
 
-    private String name;
     private Integer age;
+    private String name;
+
+    public Integer getAge() {
+        System.out.println("get方法被调用");
+        return 0;
+    }
 }
