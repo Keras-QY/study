@@ -2,10 +2,7 @@ package com.kadima.chainMode;
 
 //import com.kadima.StringTest.String;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -62,6 +59,16 @@ public class test {
         //reduce
         //studentList.stream().reduce((sum,num) -> sum+num).get()
         //StringTest string = new StringTest(10, 20);
+
+
+
+                Calendar rightNow = Calendar.getInstance();
+                rightNow.setTime(new Date());
+                rightNow.add(Calendar.DATE, -2);
+                Date dt1 = rightNow.getTime();
+        System.out.println(dt1);
+
+
 
 
     }

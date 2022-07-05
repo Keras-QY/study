@@ -35,7 +35,11 @@ public class test111 {
         //获取mapper接口对象（底层是动态代理）
         AccountMapper accountMapper = sqlSession.getMapper(AccountMapper.class);
         //调用mapper接口对象的方法操作数据库
+<<<<<<< Updated upstream:javeSE/src/main/java/com/kadima/Mybatis/test111.java
         student students = accountMapper.selectById(student);
+=======
+        student students = accountMapper.selectById(2);
+>>>>>>> Stashed changes:javeSE/src/main/java/com/kadima/Mybatis/test.java
         //业务处理
         System.out.println(students);
         //session提交并关闭
